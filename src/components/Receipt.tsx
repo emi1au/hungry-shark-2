@@ -172,7 +172,7 @@ export const Receipt: React.FC<ReceiptProps> = ({
               {/* Order Number */}
               <div className="text-center mb-4">
                 <div className="text-[13px] font-medium mb-1 uppercase">ORDER NUMBER:</div>
-                <div className="text-[42px] font-bold leading-none tracking-tight">A{orderNumber}</div>
+                <div className="text-[42px] font-bold leading-none tracking-tight">B{orderNumber}</div>
               </div>
 
               {/* Black Line Separator */}
