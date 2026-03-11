@@ -75,7 +75,7 @@ export const generateReceiptContent = (order: Order, tillName: string): string =
 
   content += TXT_QUAD;
   content += TXT_BOLD_ON;
-  content += `A${order.id}\n`;
+  content += `B${order.id}\n`;
   content += TXT_BOLD_OFF;
   content += TXT_NORMAL;
 
